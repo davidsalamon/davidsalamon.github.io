@@ -36,18 +36,18 @@ main:
 
 ########## footer menu ###############
 footer:
-#  - name: Services
-#    url: /services.html
-#  - name: Portfolio One
-#    url: /portfolio-1.html
-#    url: /portfolio-1.html
-#    url: /portfolio-1.html
-# - name: Portfolio Two
-#    url: /portfolio-2.html
-#  - name: Single Portfolio
-#    url: /portfolio-single.html
-#  - name: Contact
-#    url: /contact.html
+  - name: Services
+    url: /services.html
+  - name: Portfolio One
+    url: /portfolio-1.html
+    url: /portfolio-1.html
+    url: /portfolio-1.html
+ - name: Portfolio Two
+    url: /portfolio-2.html
+  - name: Single Portfolio
+    url: /portfolio-single.html
+  - name: Contact
+    url: /contact.html
 
 ############## Bottom menu ###############
 bottom:
