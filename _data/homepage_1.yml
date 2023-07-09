@@ -1,6 +1,6 @@
 ######################### Hero Area ##############################
 hero_area:
-  background_image : "/assets/images/bg/banner-2.png"
+  background_image : ""
   subtitle: "MY NAME IS David Salamon"
   title : "I am a creative <br>UI/UX Designer <br>from London."
   content : "Dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore et dolore magna."
