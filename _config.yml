@@ -29,21 +29,9 @@ cta:
 
 ################## Social site ###############
 social:
-  - name: facebook
-    icon: "ti-facebook"
-    link: "#"
-
-  - name: twitter
-    icon: "ti-twitter-alt"
-    link: "#"
-
-  - name: linkedin
-    icon: "ti-linkedin"
-    link: "#"
-
-  - name: pinterest
-    icon: "ti-pinterest"
-    link: "#"
+  - name: instagram
+    icon: "ti-instagram"
+    link: "https://www.instagram.com/david_salamon_art/"
 
 # Build settings
 permalink: "/:title"
@@ -52,6 +40,10 @@ plugins:
   - jekyll-feed
   - jekyll-paginate-v2
   - jekyll-archives
+
+#kramdown settings
+kramdown:
+  auto_ids: true
 
 # Scss Directory
 sass:
