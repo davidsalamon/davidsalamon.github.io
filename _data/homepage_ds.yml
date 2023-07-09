@@ -1,7 +1,7 @@
 ######################### Hero Area ##############################
 hero_area:
   background_image : "/assets/images/empty.png"
-  subtitle: "MY NAME IS David Salamon"
+  subtitle: ""
   title : "An interdisciplinary <br> Designer <br>from Budapest."
   content : "Dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore et dolore magna."
   image : "/assets/images/banner/banner-davidsalamon.png"
