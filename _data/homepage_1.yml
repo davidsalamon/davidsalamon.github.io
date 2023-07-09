@@ -4,7 +4,7 @@ hero_area:
   subtitle: "MY NAME IS David Salamon"
   title : "An interdisciplinary <br> Designer <br>from Budapest."
   content : "Dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore et dolore magna."
-  image : "/assets/images/banner/banner-img-2.png"
+  image : "/assets/images/banner/banner-davidsalamon.png"
   button:
     enable : false
     label : "contact me"
