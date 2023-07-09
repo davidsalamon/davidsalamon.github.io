@@ -1,11 +1,11 @@
 #Please use the main menu items under the "name"
 main:
-  
-  - name: Wind Light
-    url: "#"
 
   - name: About
     url: "#about-david"
+  
+  - name: Wind Light
+    url: "#"
       
   - name: Contact
     url: "#contact"
