@@ -5,7 +5,7 @@ main:
     url: "#about-david"
   
   - name: Wind Light
-    url: "#"
+    url: "/wind"
       
   - name: Contact
     url: "#contact"
