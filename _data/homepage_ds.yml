@@ -3,12 +3,12 @@ hero_area_project:
   background_image : "/assets/images/empty.png"
   subtitle: ""
   title : "Wind Light"
-  content : "sit amet consectetur elit sed do eiusmod tempor incididunt labore et dolore magna."
+  content : "A Unique, 3d-printed Collectible Design Lamp"
   image : "/assets/images/banner/banner-davidsalamon.png"
   button:
     enable : true
     label : "Know more"
-    link : "/contact"
+    link : "/wind"
 
 hero_area:
   background_image : "/assets/images/empty.png"
