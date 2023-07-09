@@ -6,7 +6,7 @@ hero_area:
   content : "Dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore et dolore magna."
   image : "/assets/images/banner/banner-img-2.png"
   button:
-    enable : true
+    enable : false
     label : "contact me"
     link : "/contact"
 
