@@ -4,7 +4,7 @@ hero_area_project:
   subtitle: ""
   title : "Wind Light"
   content : "A Unique, 3d-printed Collectible Design Lamp"
-  image : "/assets/images/wind/01.jpg"
+  image : "/assets/images/portfolio/wind/01.jpg"
   button:
     enable : true
     label : "Know more"
