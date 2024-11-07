@@ -2,7 +2,12 @@
 main:
 
   - name: About
-    url: "#about-david"
+    #url: "#about-david"
+    url: /about
+
+  - name: About2
+    #url: "#about-david"
+    url: /about-me
   
   - name: Wind Light
     url: "/wind"
