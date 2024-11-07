@@ -51,7 +51,5 @@ footer:
 
 ############## Bottom menu ###############
 bottom:
-  - name: Terms of Service
-    link: "#"
-  - name: Privacy Policy
+  - name: Made with ♡ in the EU
     link: "#"
