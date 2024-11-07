@@ -7,8 +7,8 @@ hero_area_project:
   image : "/assets/images/portfolio/wind/01.jpg"
   button:
     enable : true
-    label : "Know more ..."
-    link : "/wind1"
+    label : "Know more"
+    link : "/wind"
 
 hero_area:
   background_image : "/assets/images/empty.png"
