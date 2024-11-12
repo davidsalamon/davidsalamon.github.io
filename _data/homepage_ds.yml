@@ -13,8 +13,8 @@ hero_area_project:
 hero_area:
   background_image : "/assets/images/empty.png"
   subtitle: ""
-  title : "An interdisciplinary <br> Designer <br>from Budapest."
-  content : "A Unique, 3d-printed Collectible Design Lamp"
+  title : "Wind: a unique, 3d-printed collectible design lamp"
+  content : ""
   image : "/assets/images/portfolio/wind/01.jpg"
   button:
     enable : true
