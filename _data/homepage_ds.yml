@@ -13,9 +13,7 @@ hero_area_project:
 hero_area:
   background_image : "/assets/images/bg/rue-s-unsplash.jpg"
   subtitle: ""
-  title : "Wind Light: a unique, 
-  3d-printed 
-  collectible design lamp"
+  title : "Wind Light: a unique, 3d-printed collectible design"
   content : ""
   image : "/assets/images/portfolio/wind/01.jpg"
   button:
