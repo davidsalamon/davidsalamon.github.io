@@ -303,7 +303,11 @@
 }
 
 #main-nav.main-nav-black .navbar-brand {
-  color: $white;
+  color: $black;
+}
+
+#main-nav.main-nav-black .navbar-brand {
+  color: $black !important;
 }
 
 #main-nav.main-nav-black .navbar-nav .nav-link {
