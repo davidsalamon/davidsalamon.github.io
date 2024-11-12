@@ -4,7 +4,7 @@ hero_area_project:
   subtitle: ""
   title : "Objects that amaze, delight and inspire"
   content : ""
-  image : ""
+  image : "/assets/images/empty.png"
   button:
     enable : true
     label : "Works"
