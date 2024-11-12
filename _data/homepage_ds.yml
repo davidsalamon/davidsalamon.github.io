@@ -8,7 +8,7 @@ hero_area_project:
   button:
     enable : true
     label : "Works"
-    link : "/wind"
+    link : "/works"
 
 hero_area:
   background_image : "/assets/images/bg/rue-s-unsplash.jpg"
@@ -19,7 +19,7 @@ hero_area:
   button:
     enable : true
     label : "Wind Light"
-    link : "/wind"
+    link : "/works#wind-light"
 
 #hero_area:
 #  background_image : "/assets/images/empty.png"
