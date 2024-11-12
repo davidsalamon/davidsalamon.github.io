@@ -1,13 +1,13 @@
 ######################### Hero Area ##############################
 hero_area_project:
-  background_image : "/assets/images/empty.png"
+  background_image : "/assets/images/bg/blog-bg.jpg"
   subtitle: ""
   title : "Wind Light"
   content : "A Unique, 3d-printed Collectible Design Lamp"
   image : "/assets/images/portfolio/wind/01.jpg"
   button:
     enable : true
-    label : "Know more"
+    label : "Works"
     link : "/wind"
 
 hero_area:
@@ -18,8 +18,19 @@ hero_area:
   image : "/assets/images/banner/banner-davidsalamon.png"
   button:
     enable : false
-    label : "contact me"
-    link : "/contact"
+    label : "About"
+    link : "/about"
+
+#hero_area:
+#  background_image : "/assets/images/empty.png"
+#  subtitle: ""
+#  title : "An interdisciplinary <br> Designer <br>from Budapest."
+#  content : "In his design practice, David creates collectible design objects, interactive museum exhibits and kinetic installations. As a versatile designer with a background in both art and engineering, he defines design as poetry meeting technology."
+#  image : "/assets/images/banner/banner-davidsalamon.png"
+#  button:
+#    enable : false
+#    label : "About"
+#    link : "/about"
 
 ########################### Service ##############################
 services:
