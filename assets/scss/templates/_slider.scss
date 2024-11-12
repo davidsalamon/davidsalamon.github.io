@@ -57,23 +57,16 @@
 
 
 @include mobile-xs {
-  .banner .banner-content h2 {
-    font-size: 66px;
-    line-height: 86px;
-  }
-}
-
-@include mobile-xs {
-  .banner .banner-content h2 {
-    font-size: 66px;
-    line-height: 86px;
+  .banner h2 {
+    font-size: 60px;
+    line-height: 60px;
   }
 }
 
 @include desktop {
-  .banner .banner-content h2 {
-    font-size: 85px;
-    line-height: 100px;
+  .banner h2 {
+    font-size: 60px;
+    line-height: 60px;
   }
 
   .about-banner {
