@@ -5,7 +5,7 @@
     text-transform: uppercase;
     color: $white;
     font-size: 24px;
-    font-family: $heading-font;
+    font-family: $body-font;
     font-weight: 500;
     padding-right: 20px;
     padding-left: 35px;
@@ -38,7 +38,7 @@
 
 .navbar {
   @include desktop {
-    background: $secondary-color;
+    //background: $secondary-color;
     z-index: 99999;
   }
 
