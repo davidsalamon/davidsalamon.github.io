@@ -1,8 +1,8 @@
 ######################### Hero Area ##############################
 hero_area_project:
-  background_image : "/assets/images/bg/blog-bg.jpg"
+  background_image : "/assets/images/bg/vinicius-amnx-amano-unsplash.jpg"
   subtitle: ""
-  title : "Objects that amaze, delight and inspire"
+  title : "Lights that amaze, delight and inspire"
   content : ""
   image : "/assets/images/empty.png"
   button:
