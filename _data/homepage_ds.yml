@@ -11,7 +11,7 @@ hero_area_project:
     link : "/wind"
 
 hero_area:
-  background_image : "/assets/images/empty.png"
+  background_image : "/assets/images/bg/rue-s-unsplash.jpg"
   subtitle: ""
   title : "Wind: a unique, 3d-printed collectible design lamp"
   content : ""
