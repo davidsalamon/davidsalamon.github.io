@@ -18,8 +18,7 @@
   $(".toggler").click(function () {
     $(".full-nav").toggleClass("show");
   });
-
-
+  
   // clients slider
   $('.clients-wrap').slick({
     slidesToShow: 5,
@@ -206,3 +205,6 @@
 
 
 })(jQuery);
+
+const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
