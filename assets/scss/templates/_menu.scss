@@ -19,6 +19,10 @@
   }
 }
 
+.navbar-collapse {
+  background-color: $secondary-color;
+}
+
 .navbar-brand {
   font-size: 40px;
   color: $white;
@@ -180,7 +184,6 @@
   .navbar-collapse {
     text-align: center;
     padding: 20px;
-    background-color: $secondary-color;
   }
 
   #main-nav .navbar-nav .nav-link {
@@ -192,7 +195,6 @@
   .navbar-collapse {
     text-align: center;
     padding: 20px;
-    background-color: $secondary-color;
   }
 
   #main-nav .navbar-nav .nav-link {
@@ -208,7 +210,6 @@
   .navbar-collapse {
     text-align: center;
     padding: 20px;
-    background-color: $secondary-color;
   }
 
   #main-nav .navbar-nav .nav-link {
