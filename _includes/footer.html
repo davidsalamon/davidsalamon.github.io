@@ -74,6 +74,9 @@
 						{% for menu in site.data.navigation.bottom %}
 						<a href="{{menu.link | relative_url }}">{{menu.name}} {% unless forloop.last %} <span class="mx-2">|</span> {% endunless %}</a>
 						{% endfor %}
+						Photo credits
+						<button type="button" class="btn btn-link" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Marcell Kürtösi, Rue S - Unsplash, Sean Sinclair - Unsplash">
+						</button>
 					</div>
 				</div>
 			</div>
