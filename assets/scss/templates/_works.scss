@@ -1,0 +1,29 @@
+.main-content {
+    background-color: ghostwhite;
+}
+
+.row {
+    background-color: $white;
+    color: $black;
+    border-radius: 6px;
+    filter: drop-shadow(0px 0px 20px gainsboro);
+}
+
+.col-lg-4 {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.card-odd{
+    img{
+        border-top-right-radius: 6px;
+        border-bottom-right-radius: 6px;
+    }
+} 
+
+.card-even{
+    img{
+        border-top-left-radius: 6px;
+        border-bottom-left-radius: 6px;
+    }
+} 
