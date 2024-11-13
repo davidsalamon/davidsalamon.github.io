@@ -1,4 +1,4 @@
-.banner-hero {
+.banner {
   display: flex;
   padding: 120px 0;
 
@@ -6,77 +6,57 @@
   align-items: center;
   overflow: hidden;
 
-  .banner-hero-image {
-    flex-shrink: 0;
-    min-width: 100%;
-    min-height: 100%
+  &.banner-hero {
+    h2 {
+      font-size: 80px;
+      line-height: 80px;
+      color: $white;
+    }
   }
-  
-  h2 {
-    font-size: 80px;
-    line-height: 80px;
-    color: $white;
-  }
-}
 
-// Banner-2 Style
-.banner-2 {
-  padding: 120px 0px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
   img {
     flex-shrink: 0;
     min-width: 100%;
     min-height: 100%
   }
-  .banner-content-2 {
-    padding: 180px 0px 120px 0px;
-    @include desktop-lg {
-      padding: 150px 0 100px 0;
-    }
 
-    h2 {
-      font-size: 60px;
-      line-height: 70px;
+  &.banner-2 {
+    border-top: white solid 3px;
+
+    .banner-content-2 {
+      padding: 180px 0px 120px 0px;
       @include desktop-lg {
-        font-size: 50px;
-        line-height: 60px;
+        padding: 150px 0 100px 0;
+      }
+
+      h2 {
+        font-size: 60px;
+        line-height: 70px;
       }
     }
+
+    p {
+      color: rgba(255, 255, 255, .7);
+      padding-right: 55px;
+      font-size: 17px;
+    }
+
   }
 
-  p {
-    color: rgba(255, 255, 255, .7);
-    padding-right: 55px;
-    font-size: 17px;
-  }
-
-}
-
-
-@include mobile-xs {
-  .banner {
+  @include mobile-xs {
     padding: 100px 0;
-    
     h2 {
       font-size: 40px;
       line-height: 40px;
     }
   }
-}
-
-@include desktop {
-  .banner {
+  
+  @include desktop {
     padding: 110px 0;
-
     h2 {
       font-size: 60px;
       line-height: 60px;
     }
   }
-  .about-banner {
-    background-position: 40% 50%;
-  }
+
 }
