@@ -19,10 +19,6 @@
   }
 }
 
-.navbar-collapse {
-  background-color: $secondary-color;
-}
-
 .navbar-brand {
   font-size: 40px;
   color: $white;
@@ -602,6 +598,7 @@
 .collapse:not(.show) {
   @include desktop {
     display: none !important;
+    background-color: $secondary-color;
   }
 }
 
