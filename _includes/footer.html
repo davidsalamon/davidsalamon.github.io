@@ -74,13 +74,9 @@
 						{% for menu in site.data.navigation.bottom %}
 						<a href="{{menu.link | relative_url }}">{{menu.name}} {% unless forloop.last %} <span class="mx-2">|</span> {% endunless %}</a>
 						{% endfor %}
-
-						<p class="muted">
-							<a href="#" data-bs-toggle="tooltip" data-bs-title="Marcell Kürtösi, Rue S - Unsplash, Sean Sinclair - Unsplash">
-								Photo credits
-							</a>
-						</p>
-
+						<a href="#" data-bs-toggle="tooltip" data-bs-title="Marcell Kürtösi, Rue S - Unsplash, Sean Sinclair - Unsplash">
+							Photo credits
+						</a>
 					</div>
 				</div>
 			</div>
