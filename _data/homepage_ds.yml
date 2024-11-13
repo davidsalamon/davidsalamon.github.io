@@ -18,7 +18,7 @@ hero_area:
   image : "/assets/images/portfolio/wind/01.jpg"
   button:
     enable : true
-    label : "Wind Light"
+    label : "See Wind Light"
     link : "/works#wind-light"
 
 #hero_area:
