@@ -22,9 +22,15 @@
 // Banner-2 Style
 .banner-2 {
   padding: 120px 0px;
-  background-color: dimgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   overflow: hidden;
-
+  img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+  }
   .banner-content-2 {
     padding: 180px 0px 120px 0px;
     @include desktop-lg {
