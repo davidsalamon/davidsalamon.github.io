@@ -22,16 +22,12 @@
 
   &.banner-2 {
     border-top: white solid 3px;
-
-    .banner-content-2 {
-      padding: 180px 0px 120px 0px;
-      
-      h2 {
-        font-size: 60px;
-        line-height: 70px;
-      }
+    padding: 180px 0px 120px 0px;
+    h2 {
+      font-size: 60px;
+      line-height: 70px;
     }
-
+    
     p {
       color: rgba(255, 255, 255, .7);
       padding-right: 55px;
@@ -48,7 +44,7 @@
     padding: 110px 0;
     
     &.banner-hero h2, 
-    &.banner-2 .banner-content-2 h2 {
+    &.banner-2 h2 {
       font-size: 60px;
       line-height: 60px;
     }font-size: 1.6rem; 
@@ -62,7 +58,7 @@
     padding: 100px 0;
     
     &.banner-hero h2, 
-    &.banner-2 .banner-content-2 h2 {
+    &.banner-2 h2 {
       font-size: 40px;
       line-height: 40px;
     }
