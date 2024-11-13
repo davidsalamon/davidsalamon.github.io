@@ -46,7 +46,9 @@
 
   @media screen and (max-width: 992px) { // Smaller screens
     padding: 110px 0;
-    h2 {
+    
+    &.banner-hero h2, 
+    &.banner-2 h2 {
       font-size: 60px;
       line-height: 60px;
     }font-size: 1.6rem; 
@@ -58,7 +60,9 @@
 
   @media screen and (max-width: 576px) {
     padding: 100px 0;
-    h2 {
+    
+    &.banner-hero h2, 
+    &.banner-2 h2 {
       font-size: 40px;
       line-height: 40px;
     }
