@@ -9,18 +9,16 @@
     line-height: 80px;
     color: $white;
   }
-
-  .banner-img {
-    position: absolute;
-    content: "";
-    bottom: 0px;
-    right: 17%;
-    @media(max-width:1400px){
-      right: 10%;
-    }
-
-    @include desktop-lg {
-      right: -10%;
+  .banner-hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+    
+    .banner-hero-image {
+      flex-shrink: 0;
+      min-width: 100%;
+      min-height: 100%
     }
   }
 }
