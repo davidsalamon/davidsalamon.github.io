@@ -22,7 +22,11 @@
 
   &.banner-2 {
     border-top: white solid 3px;
-    padding-bottom: 40px;
+    
+    .banner-content-2{
+      padding-bottom: 40px;
+    }
+    
     h2 {
       font-size: 60px;
       line-height: 70px;
