@@ -274,7 +274,7 @@
 
 .main-nav.main-nav-black .navbar-toggler {
   span {
-    color: $white;
+    color: $black;
   }
 }
 
@@ -288,7 +288,7 @@
   @include desktop {
     .navbar-toggler {
       span {
-        color: $white;
+        color: $black;
       }
     }
   }
