@@ -1,25 +1,21 @@
-.banner {
-  //background: url("../images/banner/banner.jpg") center center no-repeat;
-  //background-size: cover;
+.banner-hero {
+  display: flex;
   padding: 120px 0;
+
+  justify-content: center;
+  align-items: center;
   overflow: hidden;
+
+  .banner-hero-image {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+  }
   
   h2 {
     font-size: 80px;
     line-height: 80px;
     color: $white;
-  }
-  .banner-hero {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-
-    .banner-hero-image {
-      flex-shrink: 0;
-      min-width: 100%;
-      min-height: 100%
-    }
   }
 }
 
