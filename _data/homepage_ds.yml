@@ -21,6 +21,17 @@ hero_area:
     label : "See Wind Light"
     link : "/works#wind-light"
 
+hero_area_about:
+  background_image : "/assets/images/empty.png"
+  subtitle: ""
+  title : "An interdisciplinary <br> Designer <br>from Budapest."
+  content : "In his design practice, David creates collectible design objects, interactive museum exhibits and kinetic installations. As a versatile designer with a background in both art and engineering, he defines design as poetry meeting technology."
+  image : "/assets/images/banner/banner-davidsalamon.png"
+  button:
+    enable : false
+    label : "About"
+    link : "/about"
+
 ########################### Service ##############################
 services:
 - title : "Brand Design"
