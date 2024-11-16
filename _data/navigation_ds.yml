@@ -2,7 +2,7 @@
 main:
 
   - name: About
-    url: "/about"
+    url: "/about-ds"
 
   - name: Works
     url: "/works"
