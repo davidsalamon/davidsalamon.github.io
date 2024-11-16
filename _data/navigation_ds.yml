@@ -1,11 +1,11 @@
 #Please use the main menu items under the "name"
 main:
 
-  - name: About
-    url: "/about-ds"
-
   - name: Works
     url: "/works"
+
+  - name: About
+    url: "/about-ds"
       
   - name: Contact
     url: "#contact"
