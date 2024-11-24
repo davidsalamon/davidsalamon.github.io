@@ -1,5 +1,6 @@
 ######################### Hero Area ##############################
 hero_area_project:
+  background_image : "/assets/images/portfolio/wind/Wind_render_02.jpg"
   subtitle: ""
   title : "Lights that amaze, delight and inspire"
   content : ""
