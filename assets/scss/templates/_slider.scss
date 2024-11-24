@@ -17,7 +17,7 @@
   }
   
   &.banner-hero {
-    background-image: url('/assets/images/portfolio/wind/Wind_render_01b.jpg'); /* Replace with the actual image URL */
+    background-image: url('/assets/images/bg/sean-sinclair-unsplash.jpg'); /* Replace with the actual image URL */
 
     h2 {
       font-size: 80px;
@@ -29,6 +29,8 @@
   &.banner-2 {
     border-top: white solid 3px;
     background-image: url('/assets/images/portfolio/wind/Wind_render_02.png'); /* Replace with the actual image URL */
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0.60);
     
     .banner-content-2{
       padding-bottom: 40px;
