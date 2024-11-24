@@ -63,7 +63,7 @@
     &.banner-2 h2 {
       font-size: 60px;
       line-height: 60px;
-    }font-size: 1.6rem; 
+    }
   }
 
   @media screen and (max-width: 768px) {
@@ -80,4 +80,8 @@
     }
   }
 
+}
+
+.contact-form-wrap {
+  border-top: $primary-color solid 1px;
 }
