@@ -33,9 +33,8 @@
     border-top: $primary-color solid 1px;
     background-image: url('/assets/images/portfolio/wind/Wind_render_01a_small.jpg');
     background-blend-mode: multiply;
-    background-color: rgba(0, 0, 0, 0.60);
-    filter: drop-shadow(-8px 0px 16px $secondary-color);
-
+    background-color: rgba($primary-color, 0.60);
+    
     .banner-content-2{
       padding-bottom: 40px;
     }
@@ -81,4 +80,8 @@
     }
   }
 
+}
+
+.contact-form-wrap {
+  border-top: $primary-color solid 1px;
 }
