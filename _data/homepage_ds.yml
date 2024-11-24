@@ -10,7 +10,7 @@ hero_area_project:
     link : "/works"
 
 hero_area:
-  background_image : "/assets/images/portfolio/wind/Wind_render_01b.jpg"
+  background_image : "/assets/images/portfolio/wind/Wind_render_02.png"
   subtitle: ""
   title : "Wind Light: a unique, 3d-printed collectible design"
   content : ""
