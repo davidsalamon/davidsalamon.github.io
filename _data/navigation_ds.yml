@@ -5,7 +5,7 @@ main:
     url: "/works"
 
   - name: About
-    url: "/about-ds"
+    url: "/about"
       
   - name: Contact
     url: "#contact"
