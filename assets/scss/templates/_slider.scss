@@ -6,6 +6,10 @@
   align-items: center;
   overflow: hidden;
   
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
   img {
     flex-shrink: 0;
     min-width: 100%;
@@ -13,6 +17,8 @@
   }
   
   &.banner-hero {
+    background-image: url('/assets/images/portfolio/wind/Wind_render_01b.jpg'); /* Replace with the actual image URL */
+
     h2 {
       font-size: 80px;
       line-height: 80px;
@@ -22,6 +28,7 @@
 
   &.banner-2 {
     border-top: white solid 3px;
+    background-image: url('/assets/images/portfolio/wind/Wind_render_02.png'); /* Replace with the actual image URL */
     
     .banner-content-2{
       padding-bottom: 40px;
