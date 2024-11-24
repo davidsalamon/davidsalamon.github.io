@@ -1,21 +1,21 @@
 ######################### Hero Area ##############################
 hero_area_project:
-  background_image : "/assets/images/bg/sean-sinclair-unsplash.jpg"
+  background_image : "/assets/images/portfolio/wind/Wind_render_02.jpg"
   subtitle: ""
   title : "Lights that amaze, delight and inspire"
   content : ""
-  image : "/assets/images/portfolio/wind/Wind_render_02.jpg"
+  image : "/assets/images/empty.png"
   button:
     enable : true
     label : "Works"
     link : "/works"
 
 hero_area:
-  background_image : "/assets/images/bg/rue-s-unsplash.jpg"
+  background_image : "/assets/images/portfolio/wind/Wind_render_01b.jpg"
   subtitle: ""
   title : "Wind Light: a unique, 3d-printed collectible design"
   content : ""
-  image : "/assets/images/portfolio/wind/Wind_render_01b.jpg"
+  image : "/assets/images/portfolio/wind/01.jpg"
   button:
     enable : true
     label : "See Wind Light"
