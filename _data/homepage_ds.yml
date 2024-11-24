@@ -4,7 +4,7 @@ hero_area_project:
   subtitle: ""
   title : "Lights that amaze, delight and inspire"
   content : ""
-  image : "/assets/images/empty.png"
+  image : "/assets/images/portfolio/wind/Wind_render_02.jpg"
   button:
     enable : true
     label : "Works"
@@ -15,7 +15,7 @@ hero_area:
   subtitle: ""
   title : "Wind Light: a unique, 3d-printed collectible design"
   content : ""
-  image : "/assets/images/portfolio/wind/01.jpg"
+  image : "/assets/images/portfolio/wind/Wind_render_01b.jpg"
   button:
     enable : true
     label : "See Wind Light"
