@@ -1,3 +1,7 @@
-.section {
+.nft-container {
     background-color: ghostwhite;
+}
+
+.card {
+    @include card;
 }
