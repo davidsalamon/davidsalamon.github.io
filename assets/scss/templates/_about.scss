@@ -6,6 +6,10 @@
     }
 }
 
+#about-intro{
+    @include card;
+}
+
 #about-biography{
     
     @include card;
