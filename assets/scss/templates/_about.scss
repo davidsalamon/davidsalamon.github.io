@@ -9,10 +9,14 @@
 #about-intro{
     
     @include card;
-
+    
     .col-lg-4 {
         padding-right: 0;
         padding-left: 0;
+    }
+    
+    .about-info-header {
+        font-family: $button-font;
     }
     
     img{
