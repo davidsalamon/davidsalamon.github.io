@@ -4,6 +4,7 @@
 
     .row {
         @include card;
+        align-items: stretch !important;
     }
     
     .col-lg-4 {
