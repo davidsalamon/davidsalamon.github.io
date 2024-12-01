@@ -8,6 +8,11 @@
         &.card-even, &.card-odd {
             align-items: stretch !important;
         }
+
+        &:not(.card-even):not(.card-odd) {
+            // IE. included row from template
+            padding: 2rem;
+        }f
     }
     
     .col-lg-4 {
