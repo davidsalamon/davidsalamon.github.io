@@ -54,6 +54,9 @@
 
     .btn-primary {
       color: #2B2F41 !important;
+      &:hover{
+        color: $white !important;
+      }
     }
   }
 
