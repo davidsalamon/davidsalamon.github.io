@@ -149,33 +149,6 @@
 }
 
 
-.fixed-menu.navbar-nav {
-  width: 100%;
-  height: auto;
-  clear: both;
-  float: left;
-  text-align: left;
-  margin-top: 150px;
-  box-sizing: border-box;
-
-  li {
-    padding: 5px 0px;
-
-    a {
-      color: $white;
-      text-transform: uppercase;
-    }
-  }
-
-  .dropdown-menu li {
-    padding: 0px;
-
-    a {
-      color: $black;
-    }
-  }
-}
-
 .logo {
   font-size: 40px;
   font-weight: 700;
@@ -223,28 +196,6 @@
   }
 }
 
-// Off canvas menu
-
-.content-inner {
-  background: url("../images/bg/menu-bg.jpg")no-repeat;
-}
-
-.main-wrapper {
-  position: relative;
-  z-index: 1;
-}
-
-.content-inner {
-  width: 280px;
-  position: fixed;
-  top: 0px;
-  bottom: 0px;
-  left: 0px;
-  z-index: 100;
-  border-right: 1px solid rgba(255, 255, 255, .1);
-  transition: all .3s ease;
-}
-
 .menu-left {
   width: 100%;
   height: auto;
@@ -264,24 +215,19 @@
 
 }
 
-
-//  Navigation hide nav
-
-.hide-nav {
-  opacity: 0;
-  visibility: hidden;
-}
-
 .collapse:not(.show) {
   @include desktop {
     display: none !important;
   }
 }
 
-.main-nav.main-nav-black .navbar-toggler {
-  span {
-    color: $white;
-  }
+#main-nav.main-nav-black .navbar-toggler span {
+  color: $black;
+  transition: color 0.3s ease;
+}
+
+#main-nav.main-nav-black.nav-top .navbar-toggler span {
+  color: $white !important;
 }
 
 .main-nav.main-nav-black.hide-nav.nav-top .navbar-toggler {
@@ -338,99 +284,5 @@
     .navbar-nav .nav-link {
       color: $white !important;
     }
-  }
-}
-
-.menu-wrap {
-  z-index: 1000;
-  position: absolute;
-  top: 50%;
-  left: 20%;
-
-  i {
-    color: $black;
-  }
-}
-
-.menu-left-top {
-  margin-left: 45px;
-  padding-top: 50px;
-}
-
-.content-inner.left {
-  width: 100px;
-  background: url("../images/bg/menu-bg-2.jpg")no-repeat;
-  background-size: cover;
-}
-
-
-
-@include mobile {
-
-  .hide-nav {
-    opacity: 1;
-    visibility: visible;
-  }
-
-  .content-inner {
-    display: none;
-  }
-
-}
-
-@include mobile-xs {
-
-  .hide-nav {
-    opacity: 1;
-    visibility: visible;
-  }
-
-  .content-inner {
-    display: none;
-  }
-
-}
-
-@include tablet {
-
-  .hide-nav {
-    opacity: 1;
-    visibility: visible;
-  }
-
-  .content-inner {
-    display: none;
-  }
-
-}
-
-@include desktop {
-
-  .hide-nav {
-    opacity: 1;
-    visibility: visible;
-  }
-
-  .content-inner {
-    display: none;
-  }
-
-}
-
-@include desktop-lg {
-
-  .hide-nav {
-    opacity: 1;
-    visibility: visible;
-  }
-
-}
-
-
-.container-box {
-  padding: 0px 160px;
-
-  @include desktop {
-    padding: 15px;
   }
 }
