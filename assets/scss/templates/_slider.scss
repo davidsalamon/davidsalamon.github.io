@@ -32,6 +32,10 @@
         min-height: 100%;
         z-index: -1;
     }
+    
+    span {
+      display: block;
+    }
 
     .hero-heading {
         font-family: $heading-font;
