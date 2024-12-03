@@ -34,7 +34,8 @@
     }
     
     span {
-      display: block;
+      display: inline; /* Ensure spans behave as inline elements */
+      white-space: nowrap; /* Prevent text within each span from breaking */
     }
 
     .hero-heading {
