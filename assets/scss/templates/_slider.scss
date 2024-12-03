@@ -33,12 +33,19 @@
       z-index: -1;
     }
 
-    h2 {
+    .hero-heading {
+      font-family: $heading-font;
       font-size: 60px;
       line-height: 70px;
       color: $white;
       filter: drop-shadow(0px 0px 40px slategray);
       text-transform: none;
+    }
+    .hero-subheading {
+      font-family: $button-font;
+      font-size: 40px;
+      line-height: 50px;
+      color: $white;
     }
   }
 
@@ -73,7 +80,7 @@
   @media screen and (max-width: 992px) { // Smaller screens
     padding: 110px 0;
     
-    &.banner-hero h2, 
+    &.banner-hero .hero-heading, 
     &.banner-2 h2 {
       font-size: 50px;
       line-height: 60px;
