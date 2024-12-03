@@ -105,13 +105,13 @@
   @media screen and (max-width: 576px) {
     padding: 100px 0;
     
-    &.banner-hero h2, 
+    &.banner-hero .hero-heading, 
     &.banner-2 h2 {
       font-size: 40px;
       line-height: 50px;
     }
 
-    &.hero-subheading {
+    &.banner-hero .hero-subheading {
       font-size: 20px;
       line-height: 30px;
     }
