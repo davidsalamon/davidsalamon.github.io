@@ -19,47 +19,53 @@
   }
   
   &.banner-hero {
+    position: relative;
     height: 100vh;
     width: 100%;
-    overflow: hidden;
-    
+
     video {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      min-width: 101%;
-      min-height: 100%;
-      z-index: -1;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        min-width: 101%;
+        min-height: 100%;
+        z-index: -1;
     }
 
     .hero-heading {
-      font-family: $heading-font;
-      font-weight: 200;
-      font-size: 60px;
-      line-height: 70px;
-      color: $white;
-      //ffilter: drop-shadow(0px 0px 40px slategray);
-      text-transform: none;
+        font-family: $heading-font;
+        font-size: 60px;
+        line-height: 70px;
+        font-weight: 200;
+        color: $white;
+        position: relative;
+        z-index: 1;
     }
 
     .hero-subheading {
-      font-family: $button-font;
-      font-weight: 300;
-      font-size: 28px;
-      line-height: 40px;
-      color: $white;
-      text-transform: uppercase;
+        font-family: $button-font;
+        font-size: 28px;
+        line-height: 40px;
+        font-weight: 300;
+        text-transform: uppercase;
+        color: $white;
+        position: relative;
+        z-index: 1;
     }
 
-    .btn-primary {
-      color: #2B2F41 !important;
-      &:hover{
-        color: $white !important;
-      }
+    @media screen and (max-width: 576px) {
+        .hero-heading {
+            font-size: 40px;
+            line-height: 50px;
+        }
+        .hero-subheading {
+            font-size: 20px;
+            line-height: 30px;
+        }
     }
   }
-
+  
   &.banner-2 {
     border-top: $primary-color solid 1px;
     background-image: url('/assets/images/portfolio/wind/Wind_render_01a_small.jpg');
@@ -91,7 +97,6 @@
   @media screen and (max-width: 992px) { // Smaller screens
     padding: 110px 0;
     
-    &.banner-hero .hero-heading, 
     &.banner-2 h2 {
       font-size: 50px;
       line-height: 60px;
@@ -105,17 +110,10 @@
   @media screen and (max-width: 576px) {
     padding: 100px 0;
     
-    &.banner-hero .hero-heading, 
     &.banner-2 h2 {
       font-size: 40px;
       line-height: 50px;
     }
-
-    &.banner-hero .hero-subheading {
-      font-size: 20px;
-      line-height: 30px;
-    }
-
   }
 
 }
