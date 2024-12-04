@@ -130,6 +130,6 @@
 
 //TODO: works for #contact and 70px fixed header, may not work if layout changes
 section:last-of-type:not(:first-of-type) {
-	padding: 30px 0px 0px;
+	padding: 30px 0px 40px;
   scroll-margin-top: 100px;
 }
