@@ -11,14 +11,18 @@
 	}
 	
 	.insta {
-		font-family: $button-font;
-		border: 1px solid gray;
 		padding: 8px 12px;
+		border: 1px solid gray;
 		border-radius: 5px;
+		font-family: $button-font;
+		white-space: nowrap;
+	}
 		
 		&:hover {
 			background-color: $white;
-			color: $black
+			&span {
+				color: $black
+			}
 		}
 	}
 	
