@@ -14,10 +14,24 @@
     }
   });
 
-
-  $(".toggler").click(function () {
-    $(".full-nav").toggleClass("show");
+  //Class Toggling on main content when bootstrap toggle is ON for the menubar
+  
+  const collapseElement = document.getElementById('navbars');
+  const mainContent = document.querySelector('.main-content');
+  
+  // Add class when menu is shown
+  collapseElement.addEventListener('shown.bs.collapse', function () {
+      mainContent.classList.add('menu-active');
   });
+
+  // Remove class when menu is hidden
+  collapseElement.addEventListener('hidden.bs.collapse', function () {
+      mainContent.classList.remove('menu-active');
+  });
+
+  //$(".toggler").click(function () {
+  //  $(".full-nav").toggleClass("show");
+  //});
   
   // clients slider
   $('.clients-wrap').slick({
