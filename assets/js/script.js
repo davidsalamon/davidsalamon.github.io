@@ -7,10 +7,17 @@
 
   // navigation fixed top
   win.on('scroll', function () {
+    // Add nav-top class when scrolled down
     if ($(window).scrollTop() > 70) {
       $('.main-nav').addClass('nav-top');
     } else {
       $('.main-nav').removeClass('nav-top');
+    }
+
+    // Remove menu-active class and close the navbar if it's open
+    if ($('.navbar-collapse').hasClass('show')) {
+      $('.navbar-collapse').removeClass('show');  // Close the collapsible menu
+      $('.navbar-toggler').attr('aria-expanded', 'false');  // Update aria-expanded attribute
     }
   });
 
