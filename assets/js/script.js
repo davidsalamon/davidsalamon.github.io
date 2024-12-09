@@ -15,17 +15,14 @@
   });
 
   //Class Toggling on main content when bootstrap toggle is ON for the menubar
-  const collapseElement = document.getElementById('navbars');
-  const mainContent = document.querySelector('.main-content');
-  
-  // Add class when menu is shown
-  collapseElement.addEventListener('shown.bs.collapse', function () {
-      mainContent.classList.add('menu-active');
+  $('#navbars').on('shown.bs.collapse', function () {
+    console.log('Navbar is now visible!');
+    $('.main-content').addClass('menu-active');
   });
 
-  // Remove class when menu is hidden
-  collapseElement.addEventListener('hidden.bs.collapse', function () {
-      mainContent.classList.remove('menu-active');
+  $('#navbars').on('hidden.bs.collapse', function () {
+      console.log('Navbar is now hidden!');
+      $('.main-content').removeClass('menu-active');
   });
 
   //$(".toggler").click(function () {
