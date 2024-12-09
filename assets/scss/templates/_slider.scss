@@ -3,6 +3,7 @@ body {
 }
 
 .main-content {
+  transform: translate(0);
   &.menu-active {
     transform: translate(-30%, 120px);
     transition: transform 0.3s ease-in-out;
