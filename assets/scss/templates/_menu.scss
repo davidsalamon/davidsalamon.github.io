@@ -17,6 +17,11 @@
 
 }
 
+.collapsing {
+  height: auto !important;
+  transition: none !important;
+}
+
 @media screen and (max-width: 991px) {
   #main-nav {
     .navbar-nav .nav-link {
@@ -68,17 +73,6 @@
   }
 }
 
-.dropdown-item {
-  padding: 9px 23px;
-  font-size: 14px;
-  color: rgba(0, 0, 0, 0.8);
-  text-transform: uppercase;
-}
-
-.dropdown-item:hover {
-  background: $secondary-color;
-  color: $white !important;
-}
 
 .b-logo {
   display: none;
