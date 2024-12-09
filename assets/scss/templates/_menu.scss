@@ -4,20 +4,26 @@
   height: 100px;
 
   .navbar-nav .nav-link {
-    text-transform: uppercase;
-    color: $white;
+    display: inline-block;
+    
     font-size: 20px;
     font-family: $button-font;
     font-weight: 300;
+    color: $white;
+    text-transform: uppercase;
+    
     margin-left: 25px;
-    padding-left: 10x;
+    margin-bottom: 20px;
+
+    padding-left: 10px;
     padding-right: 10px;
-    padding-bottom: 20px;
+    padding-bottom: 4px;
 
     background-image: linear-gradient($white 0 0);
     background-position: 0 100%; /*OR bottom left*/
     background-size: 0% 2px;
     background-repeat: no-repeat;
+    
     transition:
       background-size 0.3s,
       background-position 0s 0.3s; /*change after the size immediately*/
