@@ -15,12 +15,12 @@
   });
 
   //Class Toggling on main content when bootstrap toggle is ON for the menubar
-  $('#navbars').on('shown.bs.collapse', function () {
+  $('#navbars').on('show.bs.collapse', function () {
     console.log('Navbar is now visible!');
     $('.main-content').addClass('menu-active');
   });
 
-  $('#navbars').on('hidden.bs.collapse', function () {
+  $('#navbars').on('hide.bs.collapse', function () {
       console.log('Navbar is now hidden!');
       $('.main-content').removeClass('menu-active');
   });
