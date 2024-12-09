@@ -25,9 +25,6 @@
       $('.main-content').removeClass('menu-active');
   });
 
-  //$(".toggler").click(function () {
-  //  $(".full-nav").toggleClass("show");
-  //});
   
   // clients slider
   $('.clients-wrap').slick({
@@ -134,31 +131,6 @@
       });
     });
   });
-
-
-
-  win.on('load', function () { // makes sure the whole site is loaded
-
-    // ----------------------- 
-    // Progress Bar--------------------
-    // 
-    $('.progress-bar').each(function () {
-      var width = $(this).data('percent');
-      $(this).css({
-        'transition': 'width 3s'
-      });
-      $(this).appear(function () {
-        $(this).css('width', width + '%');
-        $(this).find('.skill-number').countTo({
-          from: 0,
-          to: width,
-          speed: 3000,
-          refreshInterval: 50
-        });
-      });
-    });
-  }); //End On Load Function
-
 
 
   // search box
