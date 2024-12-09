@@ -1,4 +1,8 @@
-#main-content {
+body {
+  background-attachment: $black;
+}
+
+.main-content {
   &.menu-active {
     transform: translate(-30%, 120px);
     transition: transform 0.3s ease-in-out;
