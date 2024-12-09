@@ -53,7 +53,7 @@
     }
     
     &.menu-active {
-      .w-logo {
+      .nav-logo {
         color: $white!important;
       }
     }
@@ -81,38 +81,16 @@
   }
 }
 
-
-.b-logo {
-  display: none;
-}
-
-#main-nav.main-nav-black .w-logo {
-  display: none;
-}
-
-#main-nav.main-nav-black .b-logo {
-  display: block;
-}
-
-#main-nav.main-nav-black.nav-top .w-logo {
+#main-nav.main-nav-black.nav-top .nav-logo {
   display: block;
   color: $white;
 }
 
-#main-nav.main-nav-black.nav-top .b-logo {
-  display: none;
-}
-
 #main-nav.main-nav-black {
   @include desktop {
-    .w-logo {
+    .nav-logo {
       display: block;
     }
-
-    .b-logo {
-      display: none;
-    }
-  }
 }
 
 
