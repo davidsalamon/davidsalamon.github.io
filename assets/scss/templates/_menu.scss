@@ -20,7 +20,8 @@
 @media screen and (max-width: 991px) {
   #main-nav {
     .navbar-nav .nav-link {
-    
+      
+      display: inline-block;
       margin-bottom: 20px;
 
       padding-left: 10px;
