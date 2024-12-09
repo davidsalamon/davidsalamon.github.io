@@ -14,10 +14,10 @@
       $('.main-nav').removeClass('nav-top');
     }
 
-    // Remove menu-active class and close the navbar if it's open
+    // Check if the navbar-collapse is open
     if ($('.navbar-collapse').hasClass('show')) {
-      $('.navbar-collapse').removeClass('show');  // Close the collapsible menu
-      $('.navbar-toggler').attr('aria-expanded', 'false');  // Update aria-expanded attribute
+      // Trigger collapse manually using Bootstrap's collapse method
+      $('#navbars').collapse('hide');  // Use the ID of the collapsible navbar
     }
   });
 
