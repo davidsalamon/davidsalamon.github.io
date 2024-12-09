@@ -45,12 +45,20 @@
         background-size: 100% 1px;
       }
     }
+
     .navbar-collapse {
       position: absolute;
       top: 120px;
       right: 0px;
     }
   }
+  
+  &.menu-active {
+    .w-logo {
+      color: $white!important;
+    }
+  }
+
 }
 
 .navbar-brand {
