@@ -15,7 +15,6 @@
   });
 
   //Class Toggling on main content when bootstrap toggle is ON for the menubar
-  
   const collapseElement = document.getElementById('navbars');
   const mainContent = document.querySelector('.main-content');
   
